@@ -1,13 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background: #F2F4F5;
-  color: #1E1E1F;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-}
 
-#root {
-  margin: 0 24px;
-  position: relative;
-  min-height: 100vh;
+  background: linear-gradient(45deg, rgba(97,49,175,1) 15%, rgba(50,130,189,1) 45%, rgba(14,126,209,1) 50%, rgba(217,146,241,1) 85%);
+  color: #cec4f1;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  
+  height: 100vh;
+  width: 100vw;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
